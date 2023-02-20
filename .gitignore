@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### personal ###
+.mvn
+mvnw
+mvnw.cmd
+src/test
