@@ -10,12 +10,12 @@ public class TestController {
     @GetMapping("hi")
     public ResponseEntity hi(@RequestParam String s) {
         System.out.println("bug really fixed!");
-        return ResponseEntity.ok("hi " + s);
+        return ResponseEntity.ok("demo61 hi " + s);
     }
 
     @GetMapping("hello")
     public ResponseEntity hello(@RequestParam String s) {
-        return ResponseEntity.ok("hello " + s);
+        return ResponseEntity.ok("demo61 hello " + s);
     }
 
     @PostMapping("create")
