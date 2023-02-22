@@ -9,7 +9,12 @@ public class TestController {
 
     @GetMapping("hi")
     public ResponseEntity hi(@RequestParam String s) {
-        System.out.println("---");
+        System.out.println("bug really fixed!");
+        return ResponseEntity.ok("hi " + s);
+    }
+
+    @GetMapping("hello")
+    public ResponseEntity hello(@RequestParam String s) {
         return ResponseEntity.ok("hello " + s);
     }
 
